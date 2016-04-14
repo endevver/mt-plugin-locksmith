@@ -37,11 +37,11 @@ settings:
         default: Read-only
 
 permissions:
-	blog.edit_all_posts_read_only:
-		label: Read-Only
-		group: blog_admin
-		order: 1000
-    
+    blog.edit_all_posts_read_only:
+        label: Read-Only
+        group: blog_admin
+        order: 1000
+
 applications:
     cms:
         methods:
