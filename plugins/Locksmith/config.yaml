@@ -1,7 +1,7 @@
 id: Locksmith
 name: Locksmith
 description: Access control
-version: 0.22
+version: 0.22.1
 schema_version: 0.1
 
 object_types:
