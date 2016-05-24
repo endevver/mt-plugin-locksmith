@@ -1,1 +1,2 @@
-This plugin is not an official Six Apart release, and as such support from Six Apart for this plugin is not available.
+This plugin is not an official Six Apart release, and as such support from Six
+Apart for this plugin is not available.

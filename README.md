@@ -6,7 +6,8 @@ License: Artistic, licensed under the same terms as Perl itself
 
 ## Overview
 
-A plugin for Movable Type which prevents entries and templates from being edited by more than one user at the same time.
+A plugin for Movable Type which prevents entries and templates from being edited
+by more than one user at the same time.
 
 ## Features
 
