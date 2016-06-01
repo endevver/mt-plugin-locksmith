@@ -5,7 +5,7 @@ version: 0.22.1
 schema_version: 0.1
 
 object_types:
-    objectlock: ObjectLock
+    objectlock: Locksmith::ObjectLock
 
 config_template: config.tmpl
 

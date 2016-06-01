@@ -1,16 +1,16 @@
-package ObjectLock;
+package Locksmith::ObjectLock;
 
 use strict;
-use Data::Dumper;
+use warnings;
 
 use base qw( MT::Object );
 
 __PACKAGE__->install_properties ({
     column_defs => {
-        id => 'integer not null primary key auto_increment',
-        object_id => 'integer not null',
-        object_ds => 'string(20) not null',
-        author_id => 'integer not null',
+        id           => 'integer not null primary key auto_increment',
+        object_id    => 'integer not null',
+        object_ds    => 'string(20) not null',
+        author_id    => 'integer not null',
         locked_until => 'integer not null',
     },
     indexes => {
