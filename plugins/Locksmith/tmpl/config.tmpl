@@ -2,17 +2,43 @@
     id="entry_locking"
     label="Entry Locking:"
     >
-    <input type="radio" name="entry_locking" id="entry_locking_0" value="0"<mt:if name="entry_locking_0"> checked="checked"</mt:if> /> None&nbsp;
-    <input type="radio" name="entry_locking" id="entry_locking_1" value="1"<mt:if name="entry_locking_1"> checked="checked"</mt:if> /> Single Editor&nbsp;
-    <input type="radio" name="entry_locking" id="entry_locking_2" value="2"<mt:if name="entry_locking_2"> checked="checked"</mt:if> /> Entry's Author Only
+    <input type="radio"
+        name="entry_locking"
+        id="entry_locking_0"
+        value="0"
+        <mt:if name="entry_locking_0">checked</mt:if> />
+    <label for="entry_locking_0">None</label>
+
+    <input type="radio"
+        name="entry_locking"
+        id="entry_locking_1"
+        value="1"
+        <mt:if name="entry_locking_1">checked</mt:if> />
+    <label for="entry_locking_1">Single Editor</label>
+    <input type="radio"
+        name="entry_locking"
+        id="entry_locking_3"
+        value="2"
+        <mt:if name="entry_locking_2">checked</mt:if> />
+    <label for="entry_locking_3">Entry's Author Only</label>
 </mtapp:setting>
 
 <mtapp:setting
     id="template_locking"
     label="Template Locking:"
     >
-    <input type="radio" name="template_locking" id="template_locking_0" value="0"<mt:if name="template_locking_0"> checked="checked"</mt:if> /> None&nbsp;
-    <input type="radio" name="template_locking" id="template_locking_1" value="1"<mt:if name="template_locking_1"> checked="checked"</mt:if> /> Single Editor&nbsp;
+    <input type="radio"
+        name="template_locking"
+        id="template_locking_0"
+        value="0"
+        <mt:if name="template_locking_0">checked</mt:if> />
+    <label for="template_locking_0">None</label>
+    <input type="radio"
+        name="template_locking"
+        id="template_locking_1"
+        value="1"
+        <mt:if name="template_locking_1">checked</mt:if> />
+    <label for="template_locking_1">Single Editor</label>
 </mtapp:setting>
 
 <mtapp:setting
