@@ -1,7 +1,8 @@
 package Locksmith::CMS;
 
 use strict;
-use Data::Dumper;
+use warnings;
+
 use MT::Util qw( encode_js );
 
 sub post_save_entry {

@@ -1,7 +1,7 @@
 package Locksmith::Tags;
 
 use strict;
-use Data::Dumper;
+use warnings;
 
 sub hdlr_entry_locking_author {
     my ($ctx, $args, $cond) = @_;

@@ -1,8 +1,9 @@
 package Locksmith::Util;
 
+use strict;
+use warnings;
+
 use MT;
-use Data::Dumper;
-$Data::Dumper::Maxdepth = 99;
 
 my $mt_apply_default_settings;
 

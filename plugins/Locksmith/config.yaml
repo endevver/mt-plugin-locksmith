@@ -23,6 +23,7 @@ settings:
     retry_every:
         default: 5
     override_role:
+        default: ''
     locked_text:
         default: This <mt:var name="object_type"> is being edited by <$mt:AuthorDisplayName$>.
     author_only_text:
